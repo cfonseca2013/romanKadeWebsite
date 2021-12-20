@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+*{
+    box-sizing: border-box;
+    background-color: white;
+    color:black;
+    font-family: 'Audiowide', cursive;
+    
+}
+
+body{
+    margin: 0px;
+  padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    color:antiquewhite;
+    align-items: center;
+    /*border-bottom: 5px solid black;*/
+    
+}
+
+.logo{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Audiowide', cursive;
+    margin-right: auto;   
+    
+}
+
+.barItem{
+    text-decoration: none;
+}
+
+.full-wrap-header{
+    margin-right: auto; 
+    padding-left: 20px;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.nav{
+    font-family: 'Audiowide', cursive;
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+
+.anchors{
+    display: flex;
+    justify-content: center;
+
+}
+
+.listItems {
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    padding-right: 20px;
+    font-family: 'Audiowide', cursive;
+    font-size: large;
+}
+
+.listItems.hover{
+    background-color: chartreuse !important;
+}
+ 
+.toggle-button{
+    position: absolute;
+    top: 1.80rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.mainPhoto{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('/images/backgroundpicture.jpg');
+    background-size: cover;
+   
+}
+
+.musicHeader{
+    display: flex;
+    justify-content: center;
+    color:whitesmoke;
+}
+
+.spotify{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:whitesmoke;
+    background-image: url('/images/vinyl.jpeg');
+    background-size: cover;
+    
+}
+
+#logoPic{
+    background-color: black;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+
+}
+
+.footer h1{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Audiowide', cursive;
+}
+
+.footerItems{
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+
+.anch {
+    padding-right: 15%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.anchtop{
+    align-items: in;
+}
+
+.headerA{
+    float: left;
+    padding-right: 20px;
+}
+
+.font{
+    font-family: 'Audiowide', cursive;
+    display:flex;
+    justify-content: space-around;
+    font-size: 50px; 
+}
+
+
+#Copyright{
+    font-size: small;
+    align-content: center;
+}
+
+#contactpage{
+ display: flex;
+ justify-content: center;
+ padding-top: 6rem;
+ font-size: 30px; 
+}
+
+.changeColor{
+    background-color: black;
+}
+
+#information{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: black;
+}
+
+#photo{
+    height: 60vh;
+    width: 30vw;
+    background-image: url('/images/contactpic.jpg');
+    background-size: cover;
+}
+
+#emailinfo{
+    height: 60vh;
+    width: 30vw;
+    padding:50px;
+    background-color: black;
+}
+
+#emailinfo > p{
+    background-color: black;
+    color: white;
+}
+
+#emailLinky{
+    background-color: black;
+    color: white; 
+    text-decoration: none;
+}
+
+.emailLogo{
+   background-color: black;
+   padding-right: 1rem;
+}
+
+.contactbackground{
+    background-color: black;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+
+
+@media screen and (max-width: 750px) {
+    .toggle-button{
+        display: flex;
+    }
+    
+    .responsivelist {
+        display:none;
+        width: 100%;
+    }
+
+    nav ul {
+        width: 100%;
+        flex-direction: column; 
+        
+    }
+
+    .headerAnchor{
+        display:none;
+    }
+
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        padding-top: 15px;
+    }
+
+    .responsivelist.active {
+        display: flex;
+    }
+
+    #home{
+        padding-top: .1rem;
+    }
+
+    #home{
+        padding-top: .1rem;
+    }
+
+    #information{
+        flex-direction: column;
+    }
+
+    #photo{
+        justify-content: center;
+        width: 100%;
+    }
+
+    #emailinfo{
+        height: 15rem;
+    }
+ 
+
+}
+
+
+
+
+  
+
